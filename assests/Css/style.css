@@ -18,7 +18,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 980px;
-    /* background: aliceblue; */
 }
 .global {
 	display: -ms-flexbox;
@@ -27,11 +26,6 @@ body {
 	flex-wrap: wrap;
 	margin-right: -15px;
 	margin-left: -15px;
-/*
-    display: grid;
-    grid-template-columns: 49.5% 49.5%;
-    grid-column-gap: 1%;
-	*/
 }
 .konten {
     -ms-flex-preferred-size: 0;
@@ -66,13 +60,13 @@ select {
     color: #c5d2df;
     vertical-align: middle;
     background: rgb(135, 161, 192) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
-        background-size: auto auto;
+    background-size: auto auto;
     background-size: auto auto;
     background-size: 8px 10px;
     border: 1px solid #85cece;
     border-radius: .25rem;
-        border-top-right-radius: 0.25rem;
-        border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     -webkit-appearance: none;
